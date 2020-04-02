@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView计算结果"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#87005004"
+        android:text=""
+        android:textAlignment="viewEnd"
+        android:textSize="45dp" />
+
+    <Button
+        android:id="@+id/按钮AC"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="AC"
+        android:textSize="30sp"
+        android:background="@drawable/corner"
+        android:gravity="center"
+        android:onClick="按钮清除事件响应方法"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:columnCount="4"
+        android:rowCount="4">
+
+        <Button
+            android:id="@+id/按钮7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="数值按钮事件响应方法"
+            android:text="7"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/按钮8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="数值按钮事件响应方法"
+            android:text="8"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/按钮9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="数值按钮事件响应方法"
+            android:text="9"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/按钮加"
+            android:layout_width="117dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="运算符按钮事件响应方法"
+            android:text="+"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/按钮4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="数值按钮事件响应方法"
+            android:text="4"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/按钮5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="数值按钮事件响应方法"
+            android:text="5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/按钮6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="数值按钮事件响应方法"
+            android:text="6"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/按钮减"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="运算符按钮事件响应方法"
+            android:text="-"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/按钮1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="数值按钮事件响应方法"
+            android:text="1"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/按钮2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="数值按钮事件响应方法"
+            android:text="2"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/按钮3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="数值按钮事件响应方法"
+            android:text="3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/按钮乘"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="运算符按钮事件响应方法"
+            android:text="×"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/按钮0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="数值按钮事件响应方法"
+            android:text="0"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/按钮小数点"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="数值按钮事件响应方法"
+            android:text="."
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/按钮等于"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="等于按钮事件响应方法"
+            android:text="="
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/按钮除"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/corner"
+            android:onClick="运算符按钮事件响应方法"
+            android:text="/"
+            android:textSize="20sp" />
+
+    </GridLayout>
+</LinearLayout >

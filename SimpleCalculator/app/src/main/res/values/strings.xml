@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">我的计算器</string>
+    <dimen name="按钮文本大小">25sp</dimen>
+    <dimen name="按钮文本高">20dp</dimen>
+    <dimen name="按钮文本宽">68dp</dimen>
+    <string name="按钮1">1</string>
+    <string name="按钮2">2</string>
+    <string name="按钮3">3</string>
+    <string name="按钮4">4</string>
+    <string name="按钮5">5</string>
+    <string name="按钮6">6</string>
+    <string name="按钮7">7</string>
+    <string name="按钮8">8</string>
+    <string name="按钮9">9</string>
+    <string name="按钮0">0</string>
+    <string name="按钮加">+</string>
+    <string name="按钮减">-</string>
+    <string name="按钮乘">×</string>
+    <string name="按钮除">/</string>
+    <string name="按钮AC">AC</string>
+    <string name="按钮小数点">.</string>
+    <string name="按钮等于">=</string>
+</resources>
