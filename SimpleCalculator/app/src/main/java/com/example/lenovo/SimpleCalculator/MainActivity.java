@@ -38,12 +38,12 @@ public class MainActivity extends AppCompatActivity {
         参数1="";
         参数2="";
         运算符="";
-        计算结果文本框.setText("0");
+        计算结果文本框.setText("");
     }
 
     public void 按钮清除事件响应方法(View view) {
 
-        计算结果文本框.setText("0");
+        计算结果文本框.setText("");
         参数1="";
         参数2="";
         运算符="";
@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
     public void 数值按钮事件响应方法(View view) {
         Button 数值=(Button) view;
         if(运算符=="") {
-            计算结果文本框.setText("");
             参数1=参数1+数值.getText().toString();
 
         }else{
